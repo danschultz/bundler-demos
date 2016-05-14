@@ -4,7 +4,7 @@
   </head>
   <body>
     <div id="app"></div>
-    
+
     <script>
       System.config({
         transpiler: "babel",
@@ -26,7 +26,7 @@
           "react-dom": "node_modules/react-dom/dist/react-dom.js"
         }
       });
-      
+
       System.import("src/main.js").then((app) => {
         app.main(document.querySelector("#app"));
       });
