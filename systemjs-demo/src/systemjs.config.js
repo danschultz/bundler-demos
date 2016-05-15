@@ -6,10 +6,12 @@ System.config({
 
   },
   packages: {
-    // "systemjs-demo": {}
+    "demo": {
+
+    }
   },
   paths: {
-    // "systemjs-demo/": "src/"
+    "demo/": "src/"
   },
   bundles: {
     "dist/main.js": ["src/main.js", "src/views/app.js"],
