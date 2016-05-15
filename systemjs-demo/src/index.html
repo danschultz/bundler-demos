@@ -1,28 +1,7 @@
 <html>
   <head>
     <script src="../node_modules/systemjs/dist/system.src.js"></script>
-    <script>
-      System.config({
-        transpiler: "babel",
-        baseURL: "/",
-        defaultJSExtensions: true,
-        packages: {
-          // "systemjs-demo": {}
-        },
-        paths: {
-          // "systemjs-demo/": "src/"
-        },
-        bundles: {
-          "dist/main.js": ["src/main.js"],
-          "dist/utils.js": ["src/utils/geom.js", "src/utils/math.js"]
-        },
-        map: {
-          "immutable": "node_modules/immutable/dist/immutable.js",
-          "react": "node_modules/react/dist/react.js",
-          "react-dom": "node_modules/react-dom/dist/react-dom.js"
-        }
-      });
-    </script>
+    <script src="systemjs.config.js"></script>
   </head>
   <body>
     <div id="app"></div>
