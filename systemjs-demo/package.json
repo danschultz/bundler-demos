@@ -13,7 +13,9 @@
     "babel-cli": "^6.7.7",
     "babel-plugin-transform-es2015-modules-systemjs": "^6.6.5",
     "babel-plugin-transform-react-jsx": "^6.7.5",
-    "babel-preset-react": "^6.5.0"
+    "babel-preset-react": "^6.5.0",
+    "systemjs-builder": "^0.15.16",
+    "systemjs-plugin-babel": "0.0.10"
   },
   "dependencies": {
     "immutable": "^3.8.1",
