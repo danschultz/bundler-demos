@@ -26,7 +26,7 @@
       "babel-plugin-transform-react-jsx": "npm:babel-plugin-transform-react-jsx@^6.7.5",
       "fs": "github:jspm/nodelibs-fs@^0.2.0-alpha",
       "net": "github:jspm/nodelibs-net@^0.2.0-alpha",
-      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.9",
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.12",
       "process": "github:jspm/nodelibs-process@^0.2.0-alpha",
       "tty": "github:jspm/nodelibs-tty@^0.2.0-alpha",
       "util": "github:jspm/nodelibs-util@^0.2.0-alpha"
@@ -64,6 +64,20 @@
           "_stream_transform": "readable-stream/transform"
         }
       },
+      "npm:debug@2.2.0": {
+        "main": "browser.js",
+        "jspmNodeConversion": false,
+        "format": "cjs",
+        "map": {
+          "./browser.js": {
+            "node": "./node.js"
+          },
+          "fs": "@node/fs",
+          "net": "@node/net",
+          "tty": "@node/tty",
+          "util": "@node/util"
+        }
+      },
       "npm:esprima@2.7.2": {
         "jspmNodeConversion": false
       },
@@ -71,6 +85,10 @@
         "ignore": [
           "test.js"
         ]
+      },
+      "npm:ms@0.7.1": {
+        "jspmNodeConversion": false,
+        "format": "cjs"
       },
       "npm:readable-stream@1.0.34": {
         "map": {
